@@ -9,8 +9,8 @@ docker run -dt --name test-conatiner conatinerID
 cntrl pq (To exit the running container)
 docker exec -it containerID /bin/bash
 cntrl pq (To exit from the running container without stopping)
-docker system df -v
-docker system df 
+docker system df -v (Show detailed information on space usage)
+docker system df (displays information regarding the amount of disk space used by the docker daemon.)
 docker rmi imageID
 docker rm containerID
 docker stop containerID
